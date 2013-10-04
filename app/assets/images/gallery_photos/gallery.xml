@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <gallery name="My Photo Album">
+ 	<photo>
+ 		<imagepath>euhomes_001.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_001.JPG</thumbpath>
+		<description>caption 1</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_002.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_002.JPG</thumbpath>
+		<description>caption 2</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_003.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_003.JPG</thumbpath>
+		<description>caption 3</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_004.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_004.JPG</thumbpath>
+		<description>caption 4</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_005.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_005.JPG</thumbpath>
+		<description>caption 5</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_006.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_006.JPG</thumbpath>
+		<description>caption 6</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_007.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_007.JPG</thumbpath>
+		<description>caption 7</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_008.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_008.JPG</thumbpath>
+		<description>caption 8</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_009.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_009.JPG</thumbpath>
+		<description>caption 9</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_010.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_010.JPG</thumbpath>
+		<description>caption 10</description>
+	</photo>
+	<photo>
+ 		<imagepath>euhomes_011.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_011.JPG</thumbpath>
+		<description>caption 11</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_012.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_012.JPG</thumbpath>
+		<description>caption 12</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_013.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_013.JPG</thumbpath>
+		<description>caption 13</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_014.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_014.JPG</thumbpath>
+		<description>caption 14</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_015.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_015.JPG</thumbpath>
+		<description>caption 15</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_016.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_016.JPG</thumbpath>
+		<description>caption 16</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_017.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_017.JPG</thumbpath>
+		<description>caption 17</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_018.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_018.JPG</thumbpath>
+		<description>caption 18</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_019.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_019.JPG</thumbpath>
+		<description>caption 19</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_020.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_020.JPG</thumbpath>
+		<description>caption 20</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_021.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_021.JPG</thumbpath>
+		<description>caption 21</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_022.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_022.JPG</thumbpath>
+		<description>caption 22</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_023.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_023.JPG</thumbpath>
+		<description>caption 23</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_024.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_024.JPG</thumbpath>
+		<description>caption 24</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_025.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_025.JPG</thumbpath>
+		<description>caption 25</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_026.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_026.JPG</thumbpath>
+		<description>caption 26</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_027.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_027.JPG</thumbpath>
+		<description>caption 27</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_028.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_028.JPG</thumbpath>
+		<description>caption 28</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_029.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_029.JPG</thumbpath>
+		<description>caption 29</description>
+ 	</photo>
+	<photo>
+ 		<imagepath>euhomes_030.JPG</imagepath>
+		<thumbpath>thumbs/thumb_euhomes_030.JPG</thumbpath>
+		<description>caption 30</description>
+ 	</photo>
+</gallery>

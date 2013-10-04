@@ -1,0 +1,25 @@
+.text {
+	border: 1px solid #E1E27A;
+	width: 320px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	padding: 5px;
+  margin:0;
+	height: 25px;
+	margin: 3px;
+	/*float: right;*/
+}
+
+textarea.text {
+	height: auto;
+}
+
+label {
+	display:inline-block;
+	width: 75px;
+	vertical-align: top;
+	padding-top: 5px;
+	font-family:"Georgia","Times New Roman", Times, serif;
+	font-size: 120%;
+}
+
+.error { text-align: left; color: #f00; }
