@@ -25,11 +25,18 @@
      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
    })();
+
+   $(document).ready(function() {
+     $('#slideshow').cycle({
+       fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+     });
+   });
+
  </script>
 </head>
 <body>
  <div id="main-wrap">
- <div id="header" class="alt">
+ <div id="header" >
    <ul id="nav">
   <li><a href="/">home</a></li>
   <li><a href="/aboutus">about us</a></li>
@@ -38,11 +45,25 @@
   <li><a href="/testimonials">testimonials</a></li>
   <li><a href="/gallery">photo gallery</a></li>
  </ul>
-</div>
 
-<div id="main-content">
+
+ <div id="main-photo-shadow">
+  <div id="main-photo-canvas">
+   <div id="slideshow" class="pics" style="margin-top: 18px;">
+     <%= image_tag "photo_home.jpg", size: '827x279', class: "pic", alt: "Home" %>
+     <%= image_tag "photo_aboutus.jpg", size: '827x279', class: "pic", alt: "About" %>
+     <%= image_tag "photo_services.jpg", size: '827x279', class: "pic", alt: "Services" %>
+     <%= image_tag "photo_contactus.jpg", size: '827x279', class: "pic", alt: "Contact" %>
+     <%= image_tag "photo_gallery.jpg", size: '827x279', class: "pic", alt: "Gallery" %>
+     <%= image_tag "photo_testimonials.jpg", size: '827x279', class: "pic", alt: "Testimonial" %>
+   </div>
+  </div>
+ </div>
+
+ </div>
+ <div id="main-content">
   <%= yield %>
-  <div class="clear"></div>
+ <div class="clear"></div>
 </div>
 
 

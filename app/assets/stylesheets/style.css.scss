@@ -106,7 +106,7 @@ ul#nav li a:hover, ul#nav li a:active{
 
 div#header div#main-photo-shadow{
 	margin:0 auto 0 auto;
-	background: url(../images/mainphoto_shadow.png) no-repeat;
+	background: image-url('mainphoto_shadow.png') no-repeat;
 	height: 326px; width: 868px;
 	clear: both;
 }
@@ -130,49 +130,49 @@ div#header div#main-photo-shadow div#main-photo-canvas div#photo{
 	margin: 18px auto;
 	height: 279px;
 	width: 827px;
-	background:url(../images/photo_home.jpg) no-repeat;
+	background: image-url('photo_home.jpg') no-repeat;
 }
 
 div#header div#main-photo-shadow div#main-photo-canvas div#photo-aboutus{
 	margin: 18px auto;
 	height: 279px;
 	width: 827px;
-	background:url(../images/photo_aboutus.jpg) no-repeat;
+	background: image-url('photo_aboutus.jpg') no-repeat;
 }
 
 div#header div#main-photo-shadow div#main-photo-canvas div#photo-services{
 	margin: 18px auto;
 	height: 279px;
 	width: 827px;
-	background:url(../images/photo_services.jpg) no-repeat;
+	background: image-url('photo_services.jpg') no-repeat;
 }
 
 div#header div#main-photo-shadow div#main-photo-canvas div#photo-contactus{
 	margin: 18px auto;
 	height: 279px;
 	width: 827px;
-	background:url(../images/photo_contactus.jpg) no-repeat;
+	background: image-url('photo_contactus.jpg') no-repeat;
 }
 
 div#header div#main-photo-shadow div#main-photo-canvas div#photo-gallery{
 	margin: 18px auto;
 	height: 279px;
 	width: 827px;
-	background:url(../images/photo_gallery.jpg) no-repeat;
+	background: image-url('photo_gallery.jpg') no-repeat;
 }
 
 div#header div#main-photo-shadow div#main-photo-canvas div#photo-testimonial{
 	margin: 18px auto;
 	height: 279px;
 	width: 827px;
-	background:url(../images/photo_testimonials.jpg) no-repeat;
+	background: image-url('photo_testimonials.jpg') no-repeat;
 }
 
 
 div#main-content{
 	padding:0 55px 20px 55px;
 	text-align: justify;
-	background: url(../images/mainbg_content.jpg) repeat-y;
+	background: image-url('mainbg_content.jpg') repeat-y;
 }
 
 div#main-content div#left-col{
@@ -188,7 +188,7 @@ div#main-content div#right-col{
 	float: right;
 	width: 350px;
 	min-height: 277px;
-	background: url(../images/testimonial_sticky.jpg) no-repeat top;
+	background: image-url('testimonial_sticky.jpg') no-repeat top;
 	padding-top: 95px;
 }
 
@@ -200,13 +200,10 @@ div.testimonial{
 
 div#footer{
 	height: 69px;
-	background:url(../images/mainbg_bottom.jpg) no-repeat;
+	background: image-url('mainbg_bottom.jpg') no-repeat;
 	text-align:center;
 	padding-top: 50px;
 }
-
-
-
 
 a.lightbox img{
 	border: 3px solid #E1E27A;
