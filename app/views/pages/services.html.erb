@@ -3,19 +3,13 @@
     <table width="100%" cellspacing="0" >
 <tr class="lightbox-img">
   <td class="caption">
-    <a href="services_images/image1.jpg" title="Bedrooms are large with well equipped adjoining bathrooms" class="lightbox">
-      <%= image_tag 'services_images/image1_thumb.jpg', size: '151x100', class: 'lightbox', alt: '' %>
-    </a>
+   <%= link_to image_tag('services_images/image1_thumb.jpg', size: '151x100'), '/assets/services_images/image1.jpg', 'data-lightbox' => 'image1' %>
   </td>
   <td class="caption">
-    <a href="services_images/image2.jpg" title="Living areas lend themselves to shared moments, or for finding a corner for quiet time " >
-      <%= image_tag 'services_images/image2_thumb.jpg', size: '151x100', class: 'lightbox', alt: '' %>
-    </a>
+    <%= link_to image_tag('services_images/image2_thumb.jpg', size: '151x100'), '/assets/services_images/image2.jpg', 'data-lightbox' => 'image2' %>
   </td>
   <td class="caption">
-    <a href="services_images/image3.jpg" title="...as a safety factor...grilled verandahs...handrails" class="lightbox">
-      <%= image_tag 'services_images/image3_thumb.jpg', size: '151x100', class: 'lightbox', alt: '' %>
-    </a>
+    <%= link_to image_tag('services_images/image3_thumb.jpg', size: '151x100'), '/assets/services_images/image3.jpg', 'data-lightbox' => 'image3' %>
   </td>
 </tr>
 <tr  class="lightbox-img">

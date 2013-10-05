@@ -1,5 +1,15 @@
 <div id="left-col" class="max">
     <h1>Photo Gallery</h1>
-    <div id="gallery"></div>
+    <div id="gallery">
+      <div class="">
+        <ul class="photoRow">
+          <%- @gallery_photos.each do |filename| %>
+            <li>
+            <%= link_to image_tag("gallery_photos/thumbs/thumb_#{filename}"), "/assets/gallery_photos/#{filename}", 'data-lightbox' => 'gallery' %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
 
   </div>
