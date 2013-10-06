@@ -7,6 +7,7 @@ class PagesController < ApplicationController
   def contactus; end
   def testimonials; end
   def faq; end
+  def dissertation; end
 
   def gallery
     @gallery_photos = Dir.entries(GALLERY_DIR).keep_if { |filename| filename =~ /.*\.jpg/i }
