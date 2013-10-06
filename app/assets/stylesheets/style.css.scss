@@ -192,6 +192,14 @@ div#main-content div#right-col{
 	padding-top: 95px;
 }
 
+div#main-content div#right-col.not-testimonial {
+	float: right;
+	width: 350px;
+	min-height: 277px;
+	background: none;
+	padding-top: 73px;
+}
+
 div.testimonial{
 	display: block;
 	width: 230px;
