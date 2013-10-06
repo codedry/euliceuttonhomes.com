@@ -5,7 +5,7 @@
         <ul class="photoRow">
           <%- @gallery_photos.each do |filename| %>
             <li>
-            <%= link_to image_tag("gallery_photos/thumbs/thumb_#{filename}"), "/assets/gallery_photos/#{filename}", 'data-lightbox' => 'gallery' %>
+            <%= link_to image_tag("gallery_photos/thumbs/#{filename}"), "/assets/gallery_photos/#{filename}", 'data-lightbox' => 'gallery' %>
             </li>
           <% end %>
         </ul>
