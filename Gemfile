@@ -29,6 +29,7 @@ gem 'jquery-turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+gem 'email_validator'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -48,3 +49,7 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'rails_12factor', group: :production
+
+group :development do
+  gem "letter_opener"
+end
