@@ -77,4 +77,15 @@ Euhomes::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  config.action_mailer.default_url_options = { host: 'http://euliceuttonhomes.com' }
+  config.action_mailer.smtp_settings = {
+    enable_start: true,
+    address: "smtp.gmail.com",
+    port: 587,
+    domain: "gmail.com",
+    user_name: "juicycode.mailer",
+    password: "%ju1cyc0d3-m@1l3r",
+    authentication: :plain
+  }
 end
