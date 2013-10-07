@@ -6,12 +6,11 @@
   <body>
     Contact received from <%= url_for(controller: 'welcome', action: 'index', only_path: false) %> <br /><br />
 
-    <p>From: <strong><%= @contact.name %></strong></p>
-    <p>Phone: <strong><%= @contact.phone %></strong></p>
-    <p>Email: <strong><%= @contact.email %></strong></p>
-    <p>About: <strong><%= @contact.subject %></strong></p>
-    <p>Message: <br />
-      <strong><%= @contact.message %></strong></p>
+    <p><strong>From: </strong><%= @contact.name %></p>
+    <p><strong>Phone: </strong><%= @contact.phone %></p>
+    <p><strong>Email: </strong><%= @contact.email %></p>
+    <p><strong>About: </strong><%= @contact.subject %></p>
+    <p><strong>Message: </strong> <br /><%= @contact.message %></p>
 
   </body>
 </html>
